@@ -10,4 +10,3 @@ from sklearn.metrics import mean_swaured_error, r2_score
 
 
 
-model = linear_model.LinearRegression().fit(xtrain, ytrain)
