@@ -29,10 +29,6 @@ print(predict)
 
 
 
-#Loop through the data and print out the predicted prices and the 
-#actual prices
-print("***************")
-print("Testing Results")
 
 print("\nTesting Multivariable Model with Testing Data:")
 for index in range(len(xtest)):
@@ -40,3 +36,5 @@ for index in range(len(xtest)):
     predicted_y = predict[index] # gets the predicted y value from the predict variable
     x_coord = xtest[index] # gets the x value from the xtest dataset
     print(f"miles: {x_coord[0]} age: {x_coord[1]} Actual: {actual} Predicted: {predicted_y}")
+print("***************")
+print("Testing Results")
